@@ -1,0 +1,4 @@
+*.ytd filter=lfs diff=lfs merge=lfs -text
+*.yft filter=lfs diff=lfs merge=lfs -text
+*.rpf filter=lfs diff=lfs merge=lfs -text
+*.awc filter=lfs diff=lfs merge=lfs -text

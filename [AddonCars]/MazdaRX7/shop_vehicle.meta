@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+  <Vehicles>
+	<Item>
+	  <lockHash>CU_VEH_RX7TUNABLE</lockHash>
+	  <modelNameHash>rx7tunable</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>RX7TUNABLE</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+	<Item>
+	  <lockHash>CU_VEH_RX7TUNABLE2</lockHash>
+	  <modelNameHash>rx7tunable2</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>RX7TUNABLE2</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+  </Vehicles>	
+</ShopVehicleDataArray>

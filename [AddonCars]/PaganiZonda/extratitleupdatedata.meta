@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SExtraTitleUpdateData>
+	<Mounts>
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcSPUpgrade:/</deviceName>
+			<path>update:/dlc_patch/spUpgrade/</path>
+		</Item>
+        <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPBeach:/</deviceName>
+			<path>update:/dlc_patch/mpBeach/</path>
+		</Item>
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_MPChristmas:/</deviceName>
+			<path>update:/dlc_patch/mpChristmas/</path>
+		</Item>
+        <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPValentines:/</deviceName>
+			<path>update:/dlc_patch/mpValentines/</path>
+		</Item>
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPBusiness:/</deviceName>
+			<path>update:/dlc_patch/mpBusiness/</path>
+		</Item>
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_mpBusiness2:/</deviceName>
+			<path>update:/dlc_patch/mpBusiness2/</path>
+		</Item>	
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPHipster:/</deviceName>
+			<path>update:/dlc_patch/mpHipster/</path>
+		</Item>	
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_MPIndependence:/</deviceName>
+			<path>update:/dlc_patch/mpIndependence/</path>
+		</Item>
+        <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPLTS:/</deviceName>
+			<path>update:/dlc_patch/mpLTS/</path>
+		</Item>
+        <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPPilot:/</deviceName>
+			<path>update:/dlc_patch/mpPilot/</path>
+		</Item>
+        <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_patchDay1NG:/</deviceName>
+			<path>update:/dlc_patch/patchDay1NG/</path>
+		</Item>
+        <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_mpPatchesNG:/</deviceName>
+			<path>update:/dlc_patch/mpPatchesNG/</path>
+		</Item>	
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_mpChristmas2:/</deviceName>
+			<path>update:/dlc_patch/mpChristmas2/</path>
+		</Item>		
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlcMPHeist:/</deviceName>
+			<path>update:/dlc_patch/mpHeist/</path>
+		</Item>
+    <Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_MPLuxe:/</deviceName>
+			<path>update:/dlc_patch/mpLuxe/</path>
+		</Item>
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_patchDay3NG:/</deviceName>
+			<path>update:/dlc_patch/patchDay3NG/</path>
+		</Item>		
+		<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_pagani:/</deviceName>
+			<path>update:/dlc_patch/pagani/</path>
+		</Item>				
+	</Mounts>	
+</SExtraTitleUpdateData>
