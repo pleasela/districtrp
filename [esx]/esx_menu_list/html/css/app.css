@@ -1,0 +1,63 @@
+@font-face {
+  font-family: bankgothic;
+  src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+  font-family: pcdown;
+  src: url('../fonts/pdown.ttf');
+}
+
+@font-face {
+  font-family: 'mpm';
+  src: url('../fonts/mpm.ttf');
+}
+
+@font-face {
+  font-family: 'mpb';
+  src: url('../fonts/mpb.ttf');
+}
+
+.menu {
+  font-family: 'mpm';  
+  position   : absolute;
+  left       : 50%;
+  top        : 50%;
+  transform  : translate(-50%, -50%);
+  box-shadow : 0px 0px 50px 0px #000;
+  overflow-y : auto;
+  max-height : 90%; 
+}
+
+.menu button {
+  font-family: 'mpm'; 
+}
+
+.menu > table {
+  border          : 1px transparent;
+  border-spacing  : 0;
+  min-width       : 400px;
+  background-color: #FFF;
+}
+
+.menu > table > thead {
+  font-family: 'mpb'; 
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+  text-align      : center;
+  height          : 40px;
+  line-height     : 40px;
+  color           : #fff;
+}
+
+.menu td {
+  text-align: center;
+  padding   : 8px;
+}
+
+.menu tbody tr:nth-child(even) {
+  background: #CCC
+}
+
+.menu tbody tr:nth-child(odd) {
+  background: #FFF
+}

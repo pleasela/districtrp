@@ -1,0 +1,138 @@
+@font-face {
+  font-family: bankgothic;
+  src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+  font-family: pcdown;
+  src: url('../fonts/pdown.ttf');
+}
+
+@font-face {
+  font-family: 'mpm';
+  src: url('../fonts/mpm.ttf');
+}
+
+@font-face {
+  font-family: 'mpb';
+  src: url('../fonts/mpb.ttf');
+}
+
+#cursor {
+  position: absolute;
+  z-index: 999999999;
+  display:  none;
+}
+
+#controls {
+  font-family   : pcdown;
+  font-size     : 3em;
+  color         : #FFF;
+  position      : absolute;
+  bottom        : 40;
+  right         : 40;
+  
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000
+  ;
+}
+
+.controls {
+  display: none;
+}
+
+.dialog {
+
+  font-family     : 'mpm';  
+  background-color: rgba(0,0,0,0.7);
+  color           : #fff;
+  box-shadow : 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+  position        : absolute;
+  overflow        : hidden;
+  top             : 50%;
+  left            : 50%;
+  width           : 500px;
+  height          : 132px;
+  transform       : translate(-50%, -50%);
+  opacity: 0.96;
+}
+
+.dialog.big {
+  height: 200px;
+}
+
+.dialog .head {
+  font-family: 'mpb';
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+  text-align      : center;
+  height          : 48px;
+  font-size: 1.15em;
+}
+
+.dialog .head span:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.dialog input[type="text"] {
+  width : 100%;
+  height: 40px;
+  font-size: 1.1em;
+  padding: 0 10px;
+  border: none;
+  font-family: 'mpm';
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+.dialog input[type="text"]:focus {
+  outline: 1px solid #00d2ff;
+}
+
+.dialog textarea {
+  width : 100%;
+  height: 140px;
+}
+
+.dialog button[name="submit"] {
+  width : 75%;
+  background-color: #e0f9f5;
+  color: #333;
+  border: none;
+  height: 44px;
+  font-size: 1.1em;
+  font-family: 'mpm';
+  -o-transition:color .2s ease-out, background .2s ease-in;
+  -ms-transition:color .2s ease-out, background .2s ease-in;
+  -moz-transition:color .2s ease-out, background .2s ease-in;
+  -webkit-transition:color .2s ease-out, background .2s ease-in;
+  transition:color .2s ease-out, background .2s ease-in;
+}
+
+.dialog button[name="submit"]:hover {
+  background-color: #c9e0dc;
+}
+
+.dialog button[name="cancel"] {
+  width : 25%;
+  background-color: #f04f33;
+  color: #fff;
+  border: none;
+  height: 44px;
+  font-size: 1.1em;
+  font-family: 'mpm';
+  -o-transition:color .2s ease-out, background .2s ease-in;
+  -ms-transition:color .2s ease-out, background .2s ease-in;
+  -moz-transition:color .2s ease-out, background .2s ease-in;
+  -webkit-transition:color .2s ease-out, background .2s ease-in;
+  transition:color .2s ease-out, background .2s ease-in;
+}
+
+.dialog button[name="cancel"]:hover {
+  background-color: #fe684e;
+}

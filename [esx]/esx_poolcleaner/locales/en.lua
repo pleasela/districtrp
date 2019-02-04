@@ -1,0 +1,16 @@
+Locales['en'] = {
+	['GPS_info'] = 'Your pool to clean is on the ~y~GPS',
+	['cancel_mission'] = 'You canceled the mission',
+	['pickup'] = '~INPUT_CONTEXT~ to clean the pool',
+	['end_service'] = 'Finish this service',
+	['take_service'] = 'Take this service',
+	['end_service_notif'] = 'Finish the ~r~service',
+	['take_service_notif'] = 'Take the ~g~service',
+	['start_job'] = 'Use the ~b~ DEL ~w~ key to start your ~b~ job',
+	['Vehicle_Menu_Title'] = 'Service vehicle',
+	['in_vehicle'] = '~r~Get out of your vehicle!',
+	['vehicle_broken'] = '~r~Repair the vehicle!',
+	['bad_vehicle'] = 'You can only have ~b~ service vehicles',
+	['not_good_veh'] = '~r~You must be in your service vehicle',
+	['stop_npc'] = 'Action ~r~impossible~s~ : See you at the depot',
+}

@@ -1,0 +1,135 @@
+<style>
+
+.app {
+	display: none;
+	background-image: url('img/tabletti.png');
+	background-size: 100%;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+	position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin: auto;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    height: 843px;
+	width: 566px;
+    overflow: hidden;
+
+}
+
+#screen {
+	
+	/*this to solve "the content will not be cut when the window is smaller than the content": */
+	position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:11; bottom:0;
+    margin: auto;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    height: 600px;
+	width: 500px;
+    overflow:auto;
+}
+
+#banner {
+	background-image: url('img/navbar.jpg');
+    background-color: red;
+	height: 132px;
+}
+
+.news {
+	
+	display: none;
+	
+}
+
+.bait {
+	
+	background-color: yellow;
+	color: black;
+	
+}
+
+
+.center {
+
+}
+
+body {
+	
+	height: 100%;
+}
+
+textarea {
+	
+	width: 100%;
+	
+}
+
+.editor {
+	
+	width: 100%;
+	
+}
+
+
+.likeBtn {
+	display: none;
+}
+
+.btnRet {
+	display: none;
+}
+
+
+</style>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class = "app">
+			
+			<div class = "w3-container w3-black" id = "screen">
+			
+				<div class = "w3-container" id = "banner">
+				</div>
+				
+				<div class = "editor w3-container w3-white">
+					
+					<p class "w3-black"> Clickbait header </p>
+					<textarea class = "bait w3-white" rows="2" placeholder="Enter clickbait header here.. Appears on the front page list"></textarea>
+					
+					<p class "w3-black"> Main heading </p>
+					<textarea class = "title w3-white" rows="3" placeholder="Enter headline..."></textarea>
+					
+					<p class "w3-black"> Contents </p>
+					<textarea class = "content w3-white" rows="30" placeholder="Enter your article content... Typing &lt;br&gt will get a line break in the article"></textarea>
+					
+					<p class "w3-black" > Link to picture </p>
+					<textarea class = "imgurl w3-white" rows="2" placeholder="Link to a picture here. E.g: https://i.imgur.com/2clKSsk.jpg"></textarea>
+					
+					<div class "radiolife w3-white">
+						<p> Article type </p>
+						<input id = "news" type="radio" name="type" value="news" checked> National News <br>
+						<input id = "lifestyle" type="radio" name="type" value="lifestyle"> Lifestyle <br>
+						<input id = "entertainment" type="radio" name="type" value="entertainment"> Entertainment <br>
+					</div>
+					
+					<button class="w3-button w3-green w3-right btnSend w3-large">Publish the article!</button>
+				</div>
+				
+				<button class="w3-button w3-red w3-left btnClose">Close</button>
+				
+				
+				<div class="w3-container w3-black">
+				  <p> © DistrictRP 2018</p>
+				</div>
+			</div>
+	</div>	
+</body>
