@@ -1,0 +1,5 @@
+AddEventHandler("playerSpawned", function(spawn)
+TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Welcome to DistrictRP")
+TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Join the Discord: discord.io/districtrp")
+TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Enjoy your time here & don't forget to read the rules :)")
+end)
