@@ -1,0 +1,18 @@
+[
+	{
+		"APIKey":"09051B4A6766F3D949E9D3C04F9CACA2",
+		"EnableVACBans":true,
+		"MaxVACCount":2,
+		"MaxDaysSinceLastBan":90,
+		"EnableAccountAgeCheck":true,
+		"MinimumAccountAge":2592000,
+		"MinimumAccountAgeLabel":"1 Month",
+		"EnableMinimumPlaytime":false,
+		"MinimumPlaytimeHours":5,
+		"EnableMinimumOwnedGames":false,
+		"MinimumOwnedGames":2,
+		"MinimumTotalPlaytimeHours":10,
+		"MaxStrikes":0,
+		
+	}
+]

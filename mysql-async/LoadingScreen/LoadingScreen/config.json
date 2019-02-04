@@ -1,0 +1,42 @@
+[
+	{
+		"useBackgroundColour" : "true",
+		"backgroundColour" : "20,20,20",
+		"useBackgroundImage" : "true",
+		"backgroundImagePath" : "images/backgroundImg1.jpg",
+		"useTextColour" : "false",
+		"textColour" : "0,0,0",
+		"useBoldText" : "false",
+		"serverTitle" : "Good Company RP",
+		"playAudioInBackground" : "true",
+		"audioPath" : "audio/song1.ogg",
+		"audioVolume" : "0.2"
+	},
+	{
+		"rule1" : "Do not RDM or VDM",
+		"rule2" : "A microphone is a requirement",
+		"rule3" : "Do not abuse/exploit bugs",
+		"rule4" : "Do not use cheats",
+		"rule5" : "No racism",
+		"rule6" : "Do not harass others",
+		"rule7" : "Use common sense"
+	},
+	{
+		"servers1" : "",
+		"servers2" : "",
+		"servers3" : "Discord: https://discord.gg/xmXTvFY",
+		"servers4" : "",
+		"servers5" : "",
+		"servers6" : "",
+		"servers7" : ""
+	},
+	{
+		"content1" : "Custom Scripts",
+		"content2" : "Purchasable & Storable Vehicles",
+		"content3" : "Whitelisted Police & EMT Force",
+		"content4" : "Lots Of Jobs",
+		"content5" : "Banks & ATMs",
+		"content6" : "Custom Vehicle Models",
+		"content7" : "Presistent World"
+	}
+]

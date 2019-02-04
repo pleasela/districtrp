@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fivem runcode</title>
+
+	<script type="text/javascript" src="smoothie.js"></script>
+	<style type="text/css">
+		div.smoothie-chart-tooltip {
+		  background: #444;
+		  padding: 1em;
+		  margin-top: 20px;
+		  font-family: consolas;
+		  color: white;
+		  font-size: 10px;
+		  pointer-events: none;
+		}
+		canvas {
+		  float: left;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="mycanvas" width="800" height="400"></canvas>
+	<h3>Players in Queue:</h3>
+	<ul id="pList">
+	
+	</ul>
+	<script>
+		var smoothie = new SmoothieChart({millisPerPixel:500,interpolation:'step',grid:{strokeStyle:'transparent',millisPerLine:2000},tooltip:true,minValue:0,maxValue:33});
+		smoothie.streamTo(document.getElementById("mycanvas"));
+		var line1 = new TimeSeries();
+		var line2 = new TimeSeries();
+		// Add to SmoothieChart
+		smoothie.addTimeSeries(line1, {lineWidth:2,strokeStyle:'#44ff88',fillStyle:'#22ff8833'});
+		smoothie.addTimeSeries(line2, {lineWidth:2,strokeStyle:'#ff2244',fillStyle:'#ff002233'});
+
+
+
+		function fetchPlayers() {
+			var timeAt = new Date().getTime()
+			fetch('/runcode/playerData').then(res => res.json()).then(res => {
+				var point = res.point;
+				
+				line1.append(timeAt,point[0])
+				line2.append(timeAt,point[1])
+				
+				const clients = res.Queue;
+				var list = document.getElementById("pList")
+				list.innerHTML = "";
+				for (const client of clients) {
+					var el = document.createElement('li');
+					el.innerHTML = client
+					list.appendChild(el);
+				}
+			});
+		}
+
+
+		setInterval(() => fetchPlayers(), 5000);
+		fetchPlayers();
+
+	</script>
+
+</body>
+</html>
